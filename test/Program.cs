@@ -32,12 +32,12 @@ string [] SelectFromArray(string [] array, int max)
     return newArray;
 }
 
-string[] CreateArray (int size) //метод для ввода массива пользователем
+string[] CreateArray (int size) 
 {
     string [] array = new string [size];
 
     Console.Write("Input first element of the array: ");
-    array[0] = Console.ReadLine();;
+    array[0] = Console.ReadLine();
 
     for (int i = 1; i < size; i++)
     {
